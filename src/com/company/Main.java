@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.ARRAYS.ArrayUnion;
 import com.company.ARRAYS.MiddleValueOfArray;
+import com.company.ARRAYS.ReArrangeArrayToOddsEvens;
 import com.company.STRINGS.Anagram;
 import com.company.STRINGS.DuplicateCharactersInString;
 import com.company.STRINGS.ReverveWordsIntact;
@@ -48,10 +49,10 @@ public class Main {
 //       String word1 = "Mallam";
 //        String word2 = "Jouse";
 //        System.out.println(ReverveWordsIntact.reverseWordsIntact(newWord));
-        int[] a = new int[]{22,33,44,55};
+        int[] a = new int[]{2,3,4,5};
 
 
-        System.out.println(MiddleValueOfArray.getMidValues(a).toString());
+        System.out.println(ReArrangeArrayToOddsEvens.reArrange(a));
 
  }
 
