@@ -5,7 +5,6 @@ public class ReArrangeArrayToOddsEvens {
             int even = 0;
             int odd = 1;
 
-
             int[] arranged = new int[a.length];
 
             for (int i = 0; i < a.length ; i++) {

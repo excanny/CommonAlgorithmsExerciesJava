@@ -1,11 +1,7 @@
 package com.company;
 
-import com.company.ARRAYS.ArrayUnion;
-import com.company.ARRAYS.MiddleValueOfArray;
-import com.company.ARRAYS.ReArrangeArrayToOddsEvens;
-import com.company.STRINGS.Anagram;
-import com.company.STRINGS.DuplicateCharactersInString;
-import com.company.STRINGS.ReverveWordsIntact;
+import com.company.ARRAYS.FrequencyOfElement;
+import com.company.ARRAYS.MaxAndMinKthLargestSmallestElement;
 
 public class Main {
 
@@ -49,10 +45,10 @@ public class Main {
 //       String word1 = "Mallam";
 //        String word2 = "Jouse";
 //        System.out.println(ReverveWordsIntact.reverseWordsIntact(newWord));
-        int[] a = new int[]{2,3,4,5};
+        int[] a = new int[]{1,3,4,5, 2, 2, 2};
 
 
-        System.out.println(ReArrangeArrayToOddsEvens.reArrange(a));
+        System.out.println(FrequencyOfElement.findFrequency(a, 2));
 
  }
 
